@@ -1,0 +1,98 @@
+/*Universal Styles */
+
+body{
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text is centered horizontally
+}
+
+a {
+  color: seashell;
+}
+
+nav span {
+  display: inline-block
+  padding: 50px 10px
+}
+
+
+/* Header */
+
+header {
+  display: flex;
+  align-item: right;
+  position: fixed;
+  z-index: 1;
+  width: fixed header;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  aling-items: right;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  width: 50px;
+  height:10px;
+  margin-right: 10px;
+}
+
+.logo span{
+  color: seashell;
+}
+
+header nav {
+  padding-right: 69px;
+}
+
+/* Main Content container*/
+
+
+/* First News Column */
+
+.lead-story .image-content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width: 700px;
+  margin-top: 0;
+  lext_align: left;
+  font-size: 22px;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center view;
+}
+
+h4 {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center view;
+}
+
+/* Second News Column */
+h2 h4 {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center view;
+}
+
+/* Third News Column */
